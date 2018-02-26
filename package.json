@@ -1,0 +1,27 @@
+{
+  "name": "URLShortenerMicroservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "devstart": "nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "5.0.0",
+    "errorhandler": "1.5.0",
+    "express": "4.16.2",
+    "mongoose": "^5.0.7",
+    "morgan": "1.9.0",
+    "pug": "^2.0.0-rc.4",
+    "shortid": "2.2.8",
+    "valid-url": "1.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.15.1"
+  }
+}
