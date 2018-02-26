@@ -6,20 +6,22 @@ html(lang='en')
     body{
       margin:auto;
       width:50%;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-top:10px;
     }
   body
     h1(style = "margin-bottom:20px") FreeCodeCamp API Basejump: URL Shortener Microservice
     h1 Example creation usage:
     p
-      p https://little-url.herokuapp.com/new/https://www.google.com
-      p https://little-url.herokuapp.com/new/http://foo.com:80
+      p https://url-shortener-fcc-microservice.herokuapp.com/new/https://www.google.com
+      p https://url-shortener-fcc-microservice.herokuapp.com/new/http://foo.com
     h1 Example creation output:
-    p { "original_url":"http://foo.com:80", "short_url":"https://little-url.herokuapp.com/8170" }
+    p { "original_url":"http://foo.com", "short_url":"https://url-shortener-fcc-microservice.herokuapp.com/8170" }
     h1 Usage:
-    p https://little-url.herokuapp.com/2871
+    p https://url-shortener-fcc-microservice.herokuapp.com/2871
     h1 Will redirect to:
     p(style = "margin-bottom:30px") https://www.google.com/
-    p made by #[a(href = "https://codepen.io/Daniel_Lawson9999/full/dVOeBr/") Daniel Lawson]
+    p made by #[a(href = "https://codepen.io/Daniel_Lawson9999/full/dVOeBr/" target = "_blank") Daniel Lawson]
     
     
     
