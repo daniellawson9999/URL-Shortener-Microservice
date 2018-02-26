@@ -29,7 +29,7 @@ router.get('/new/:link(*)',(req,res) => {
 
 router.get('/:id',(req,res) => {
   Url.findOne({_id: req.params.id},'url', (err,Url) => {
-    if(err){
+    if(err || !Url){
       res.send({
         error: "This url is not in the database."
       });
